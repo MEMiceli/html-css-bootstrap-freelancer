@@ -2,5 +2,21 @@
 header{
     background-color: blue;
 }
-
-
+.start{
+    background-color: chartreuse;
+}
+.portfolio{
+    background-color: coral;
+}
+.about{
+    background-color: green;
+}
+.contact-me{
+    background-color: ivory;
+}
+.footer-top{
+    background-color: lightblue;
+}
+.footer-bottom{
+    background-color: lightslategray;
+}
