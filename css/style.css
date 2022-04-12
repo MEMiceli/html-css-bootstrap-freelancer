@@ -3,10 +3,10 @@
     background-color: blue;
 } */
 .start{
-    background-color: chartreuse;
+    background-color: #1ABC9C;
 }
 .portfolio{
-    background-color: coral;
+    background-color: white;
 }
 .about{
     background-color: green;
@@ -38,4 +38,8 @@
 }
 .portfolio img {
     width: 100%;
+}
+.barr{
+    width: 100px;
+    height: 3px;
 }
