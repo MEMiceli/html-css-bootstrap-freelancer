@@ -1,7 +1,7 @@
 /* debug */
-header{
+/* header{
     background-color: blue;
-}
+} */
 .start{
     background-color: chartreuse;
 }
@@ -19,4 +19,20 @@ header{
 }
 .footer-bottom{
     background-color: lightslategray;
+}
+
+.main-color-1{
+    background-color: rgb(44, 62, 80);
+}
+
+/* type  */
+.main-text-1{
+    color: white;
+}
+.box-image{
+    max-width: 400px;
+    margin: auto;
+}
+.box-image>img{
+    width: 100%;
 }

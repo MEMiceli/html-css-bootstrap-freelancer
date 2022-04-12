@@ -12,17 +12,34 @@
 </head>
 <body>
     <!-- header -->
-    <header>
+    <header class="main-color-1 py-4">
         <div class="container">
-            <div class="row">
+            <div class="row align-items-center">
                 <!-- header-right -->
-                <div class="col">
-                    <h3>Start bootstrap</h3>
+                <div class="col-6 main-text-1">
+                    <h3>START BOOTSTRAP</h3>
                 </div>
                 <!--/header-right -->
                 <!-- header-left -->
-                <div class="col">
-                    <button>hamburger</button>
+                <div class="col-6 text-end">
+                    <button type="button" class="btn btn-outline-secondary d-sm-inline d-md-none">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+                        </svg>
+                    </button>
+                    <nav>
+                        <ul class="nav d-sx-none d-sm-none d-md-flex main-text-1">
+                            <li class="nav-item">
+                              <a class="nav-link " href="#">Portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                              <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                              </li>
+                          </ul>   
+                      </nav>
                 </div>
                 <!--/header-left -->
             </div>      
@@ -32,16 +49,28 @@
     <!--/header -->
     <!--/main -->
     <main>
-        <section class="start">
-            <h1>Start Bootstrap</h1>
-            <div class="runner"></div>
+        <section class="start py-5">
+            <div class="container">
+                <div class="col">
+                    <div class="box-image">
+                        <img src="img/avatar.svg" alt="">
+                    </div>
+                    <h1 class="text-center">Start Bootstrap</h1>
+                    <p class="text-center"> GRAPHIC ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
+                </div>
+
+            </div>
+            
+            
         </section>
         <!-- portfolio -->
         <section class="portfolio">
             <div class="container">
                 <h2>Portfolio</h2>
                 <div class="row">
-                    <div class="col-sm-12 col-md-6 col-lg-4"></div>
+                    <div class="col-sm-12 col-md-6 col-lg-4">
+                        <img src="img/cabin.png" alt="cabin">
+                    </div>
                     <div class="col-sm-12 col-md-6 col-lg-4"></div>
                     <div class="col-sm-12 col-md-6 col-lg-4"></div>
                     <div class="col-sm-12 col-md-6 col-lg-4"></div>
