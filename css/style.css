@@ -24,7 +24,9 @@
 .main-color-1{
     background-color: rgb(44, 62, 80);
 }
-
+.main-color-3{
+    background-color: rgb(58, 84, 109);
+}
 /* type  */
 .main-text-1{
     color: white;
@@ -57,3 +59,14 @@
     border-radius: 5px;
     color: white;
 }
+.color-black{
+    background-color: black;
+}
+/* .circle{
+    border: 1px solid white;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    border-radius: 50%;
+} */
