@@ -2,10 +2,20 @@
 /* header{
     background-color: blue;
 } */
+.main-color-1{
+    background-color: rgb(44, 62, 80);
+}
 .main-color-2{
     background-color: #1ABC9C;
 }
-.portfolio{
+.main-color-3{
+    background-color: rgb(58, 84, 109);
+}
+
+.main-color-4{
+    background-color: white;
+}
+/* .portfolio{
     background-color: white;
 }
 .about{
@@ -19,14 +29,9 @@
 }
 .footer-bottom{
     background-color: lightslategray;
-}
+} */
 
-.main-color-1{
-    background-color: rgb(44, 62, 80);
-}
-.main-color-3{
-    background-color: rgb(58, 84, 109);
-}
+
 /* type  */
 .main-text-1{
     color: white;
@@ -70,3 +75,27 @@
     line-height: 80px;
     border-radius: 50%;
 } */
+
+/* animation */
+
+.img-portfolio::after {
+    content: "+";
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: #1ABC9C;
+    font-size: 60px;
+    color: #fff;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.img-portfolio:hover .img-portfolio::after{
+    opacity: 1;
+}
